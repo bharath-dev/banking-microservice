@@ -17,17 +17,6 @@ Once your Spring Boot application is running on port 8055, open these URLs in yo
 
 ---
 
-### 🔑 H2 Database Login Credentials
-When opening http://localhost:8055/h2-console, enter these exact credentials:
-- **Driver Class:** org.h2.Driver
-- **JDBC URL:** jdbc:h2:mem:bankingdb
-- **User Name:** sa
-- **Password:** (leave blank / empty)
-- Click **Connect** (or Test Connection).
-- In the SQL editor on the right, run: SELECT * FROM CUSTOMERS; to inspect saved rows!
-
----
-
 ## 📡 REST API Reference
 
 Base URL: http://localhost:8055/api/customers

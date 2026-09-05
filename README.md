@@ -81,8 +81,5 @@ mvn spring-boot:run
 
 ---
 
-## 🧪 How to Run Automated Tests
-```bash
-# Run all unit and integration tests
-mvn test
+## TODO: Work on test cases
 ```

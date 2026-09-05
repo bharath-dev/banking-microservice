@@ -1,0 +1,25 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body { background-color: #f4f6f8; color: #333; }
+.container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+header { display: flex; justify-content: space-between; align-items: center; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+h1 { color: #1a56db; }
+h2 { margin-bottom: 15px; color: #374151; }
+button { background: #1a56db; color: white; border: none; padding: 10px 15px; border-radius: 5px; cursor: pointer; transition: background 0.3s; }
+button:hover { background: #1e40af; }
+.btn-clear { background: #6b7280; }
+.btn-clear:hover { background: #4b5563; }
+.btn-danger { background: #ef4444; padding: 5px 10px; }
+.btn-danger:hover { background: #dc2626; }
+.btn-edit { background: #10b981; padding: 5px 10px; }
+.btn-edit:hover { background: #059669; }
+input, select { padding: 10px; border: 1px solid #d1d5db; border-radius: 5px; width: 100%; }
+.form-container, .table-container { background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 20px; }
+.form-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-bottom: 15px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 12px; border-bottom: 1px solid #e5e7eb; }
+th { background-color: #f9fafb; font-weight: 600; }
+.error-box { color: #dc2626; margin-top: 10px; font-weight: 500; }
+.status-badge { padding: 4px 8px; border-radius: 12px; font-size: 0.85em; font-weight: 600; }
+.status-ACTIVE { background: #def7ec; color: #03543f; }
+.status-SUSPENDED { background: #fdf6b2; color: #723b13; }
+.status-CLOSED { background: #fde8e8; color: #9b1c1c; }
